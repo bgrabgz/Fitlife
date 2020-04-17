@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.deneme1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".kayitol"></activity>
+        <activity android:name=".giris" />
+        <activity android:name=".oniki" />
+        <activity android:name=".onbir" />
+        <activity android:name=".onuncu" />
+        <activity android:name=".dokuzuncu" />
+        <activity android:name=".sekizinci" />
+        <activity android:name=".yedinci" />
+        <activity android:name=".altinci" />
+        <activity android:name=".besinci" />
+        <activity android:name=".dort" />
+        <activity android:name=".ucuncu" />
+        <activity android:name=".ikinci" />
+        <activity
+            android:name=".denemeee"
+            android:label="@string/title_activity_denemeee"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".birinci" />
+        <activity android:name=".bilgilerim" />
+        <activity android:name=".diyethata" />
+        <activity android:name=".diyetlisteri" />
+        <activity android:name=".not" />
+        <activity android:name=".hata" />
+        <activity android:name=".aktiviteler" />
+        <activity android:name=".cetvel" />
+        <activity android:name=".bazal" />
+        <activity android:name=".ideal" />
+        <activity android:name=".anasayfa" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

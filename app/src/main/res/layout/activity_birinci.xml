@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2196F3"
+    tools:context=".birinci">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView115"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="15dp"
+                android:paddingTop="35dp"
+                android:paddingBottom="55dp"
+                android:text="Yalnızca 1 haftada fazlalıklarınızdan kurtulmak ister misiniz? O zaman doğru yerdesiniz! 1 haftada 10 kilo vermenin formülü açıklayacağım. Oldukça etkili olan bu diyet hızlı kilo vermek isteyenler için iyi bir motivasyon kaynağı.  Yalnızca 1 haftada bedeninizi inceltme imkanınız varken neden olmasın. "
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00BCD4"
+                android:text="Notlara Kaydetmek İçin Tıklayın..." />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

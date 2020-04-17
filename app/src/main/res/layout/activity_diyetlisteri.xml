@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2196F3"
+    tools:context=".diyetlisteri">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView119"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="35dp"
+                android:paddingLeft="70dp"
+                android:text="DİYET LİSTELERİ"
+                android:textSize="36sp" />
+
+            <Button
+                android:id="@+id/button35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="#F44336"
+                android:text="1 Haftada  10 Kilo Verdiren Diyet"
+                android:onClick="asd1"/>
+
+            <Button
+                android:id="@+id/button36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="#E91E63"
+                android:text="5 Günde 1 kilo verdiren diyet"
+                android:onClick="asd2"/>
+
+            <Button
+                android:id="@+id/button37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="#9C27B0"
+                android:text="10 günde 2 kilo verdiren diyet"
+                android:onClick="asd3"/>
+
+            <Button
+                android:id="@+id/button38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="#3F51B5"
+                android:text="1 ayda 8 kilo verdiren diyet "
+                android:onClick="asd4"/>
+
+            <Button
+                android:id="@+id/button39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="#009688"
+                android:text="12 günde 2 kilo verdiren diyet"
+                android:onClick="asd5"/>
+
+            <Button
+                android:id="@+id/button40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="#CDDC39"
+                android:text="2 haftada 1 kilo verdiren diyet"
+                android:onClick="asd6"/>
+
+            <Button
+                android:id="@+id/button41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="#4CAF50"
+                android:text="20 günde 9 kilo verdiren diyet"
+                android:onClick="asd7"/>
+
+            <Button
+                android:id="@+id/button42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="#FF5722"
+                android:text="metabolizmayı hızlandıran diyet"
+                android:onClick="asd8"/>
+
+            <Button
+                android:id="@+id/button43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="#F44336"
+                android:text="yoğurt diyeti "
+                android:onClick="asd9"/>
+
+            <Button
+                android:id="@+id/button44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="#E91E63"
+                android:text="portakal diyeti"
+                android:onClick="asd10"/>
+
+            <Button
+                android:id="@+id/button45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="#FFEB3B"
+                android:text="yumurta diyeti"
+                android:onClick="asd11"/>
+
+            <Button
+                android:id="@+id/button46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:background="#673AB7"
+                android:text="yulaf ezmesi diyeti "
+                android:onClick="asd12"/>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

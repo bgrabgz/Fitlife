@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2196F3"
+    tools:context=".dort">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView127"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="15dp"
+                android:paddingTop="35dp"
+                android:paddingBottom="55dp"
+                android:text="1 ayda 8 kilo verme diyeti ile 30 gün içerisinde hızlı bir şekilde forma girmek mümkün olacaktır. Sabah 1 omlet, 5 yaprak maydanoz ve 1 dilim ekmek. Gün içerisinde ise 1 kase yoğurt ve 1 tabak bulgur pilavı ile haftalık olarak tekrarlandığı zaman farkı gözle görmek mümkün olacaktır."
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/button17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00BCD4"
+                android:text="Notlara Kaydetmek İçin Tıklayın..." />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

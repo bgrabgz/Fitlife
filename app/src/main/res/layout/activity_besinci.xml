@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2196F3"
+    tools:context=".besinci">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView130"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="15dp"
+                android:paddingTop="35dp"
+                android:paddingBottom="55dp"
+                android:text="Yaz aylarına yaklaşırken en çok önemsenen konu kilo vermektir. Eğer bir sağlık problemimiz yoksa rahatça kilo verebilirsiniz. Sabah ilk öğün olarak çayınıza 5-10 damla limon damlatın ve şekersiz için.  Sıcak yaz akşamlarında mutlaka günde en az 2 adet meyve tüketin."
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/button20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00BCD4"
+                android:text="Notlara Kaydetmek İçin Tıklayın..." />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

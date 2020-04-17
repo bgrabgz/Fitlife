@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2196F3"
+    tools:context=".dokuzuncu">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView134"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="15dp"
+                android:paddingTop="35dp"
+                android:paddingBottom="55dp"
+                android:text="Yoğurt diyeti içerisindeki yüksek kolesterol ve fosfor sebebiyle yüksek kolesterol ve böbrek taşı sorunu olan kişiler için uygun değildir. Bu diyeti 2 haftadan fazla uygulamamaya özen gösteriniz. 2 adet domates mantar ve az yağlı peynirli bir kase bulgur pilavı ile 2 kasa yoğurt tüketiniz. "
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/button24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00BCD4"
+                android:text="Notlara Kaydetmek İçin Tıklayın..." />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

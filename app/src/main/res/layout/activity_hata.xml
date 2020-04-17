@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2196F3"
+    tools:context=".hata">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView123"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="35dp"
+                android:paddingLeft="60dp"
+                android:text="DİYET HATALARI"
+                android:textSize="36sp" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F44336"
+                android:text="Uzun süre aç kalmak" />
+
+            <TextView
+                android:id="@+id/textView116"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:text="Hızlı kilo vermek için yapılan hataların başında öğün atlamak ya da uzun süre aç kalmak gelmektedir. Yemeklerden sonra harekete geçen metabolizma, besinleri sindirebilmek için enerji harcamaktadır. Hiç beslenmemek veya günde 1-2 öğünle yetinmek metabolizmayı yavaşlatmaktadır. Hızlı kilo vermek adına yapılan bu yanlış tam tersi etki yaparak kişinin kilo vermesini engellemektedir. Öğün atlamak yerine, tercih edilen besinlerin değiştirilmesinin kilo kaybına yardımcı olduğu unutulmamalıdır." />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E91E63"
+                android:text="Ekmeği beslenme programından çıkarmak" />
+
+            <TextView
+                android:id="@+id/textView117"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:text="Ekmek ve karbonhidrat içeren besinlerin aşırı tüketilmesi, diyetlerde önerilmemektedir. Ancak ekmeğin diyetten tamamen çıkartılması, olumsuz sonuçlar doğurabilmektedir. Beslenmeden çıkartılan ekmeğin yerini, farkında olmadan makarna, bulgur gibi farklı karbonhidrat grupları alabilmektedir. Ekmekle birlikte bütün karbonhidratların beslenmeden çıkartılması ise kas kaybı riskini beraberinde getirmektedir. Dikkat edilmesi gereken ekmek ya da diğer karbonhidratların tüketim oranıdır." />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#4CAF50"
+                android:text="Ödem yapacağı düşüncesi ile suyu az içmek" />
+
+            <TextView
+                android:id="@+id/textView118"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:text="Su tüketiminin ödem yaptığı yönünde inanışın aksine, gerekli miktarda su tüketimi vücutta ödem oluşmasını engellemektedir. Sindirim enzimlerinin çalışması için gerekli olan suyun yeterli miktarda tüketilmemesi, hem sindirim sistemini hem de metabolizmayı yavaşlatmaktadır. Günlük su tüketiminin gerekenden az olması, çay veya kahve tüketimin fazla olması, vücudu susuz bırakan, metabolizmayı yavaşlatan ve şişkinliğe yani ödeme sebep olan etkenlerdendir." />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#FFEB3B"
+                android:text="Şekerli diye meyve yememek" />
+
+            <TextView
+                android:id="@+id/textView120"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:text="Meyveler fazla miktarda şeker içerirler ancak porsiyon kontrolü yapılarak tüketilmesi gün içinde alınması gereken karbonhidrat, vitamin ve minerali sağlar. Bununla birlikte meyvelerin antioksidan miktarları yüksek olduğu için metabolizmayı hızlandırır ve hastalıklara karşı koruma oluşturmaktadır. Gün içinde ara öğünde ya da ana öğünden hemen sonra tüketilmesi kilo artışına neden olmamaktadır. Gece geç saatlerde veya gün içinde fazla meyve tüketmenin ise kilo artışına sebep olabileceği akılda tutulmalıdır." />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F44336"
+                android:text="Sadece sebze meyve yiyerek zayıflamaya çalışmak" />
+
+            <TextView
+                android:id="@+id/textView121"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:text="Yeteri kadar hayvansal protein tüketmeden devam ettirilen diyetler, insülin gibi protein yapıda olan hormon ve enzimlerin yeteri kadar üretilmemesi ya da çalışmamasına yol açabilmektedir. Sebze ve meyveden alınan bitkisel protein ile hayvansal gıdalardan alınan protein vücuda aynı şekilde fayda sağlamamaktadır. Sebze ve meyvelerden zengin bir beslenme planı, diğer besin grupları da tüketilerek uygulanmalıdır." />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#E91E63"
+                android:text="Hızla kilo vermek için tek tip beslenmek" />
+
+            <TextView
+                android:id="@+id/textView122"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:text="Sadece sebze ve meyve tüketerek kilo vermeye çalışmak ne kadar yanlışsa sadece proteine dayalı bir beslenme programı da aynı oranda sakıncalıdır. Tek tip diyetlerin hepsi bir şekilde vitamin, mineral ve kas kayıplarına sebep olmaktadır. Gereğinden fazla alınan protein, vücutta asit artık bırakır ve kemiklerden kalsiyum çekilmesine, böbreklere yük binmesine, bağırsak florasının bozulmasına yol açmaktadır. Bu tip diyetlerde başlarda kısa sürede kilo kaybı sağlansa da metabolizmanın bir süre sonra yavaşlamasıyla kilo kaybı durmaktadır." />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#673AB7"
+                android:text="Kilo aldırmayacağı düşüncesiyle light ürünlerden sık tüketmek" />
+
+            <TextView
+                android:id="@+id/textView124"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:text="Tüketilen bütün besinlerde olduğu gibi light ürünlerin de kalorisi bulunmaktadır. Light ürünlerin kalorisi diğer besinlere göre daha az olmakla birlikte miktara dikkat etmeden tüketmek kilo aldırabilir. Beyaz ekmek yerine kepekli ekmek tüketmenin karbonhidrat alımına neden olduğu unutulmamalıdır. Kepekli ekmek tüketmenin tek faydası kan şekerinin daha yavaş yükselmesi ve ekstradan lif alımıdır." />
+
+            <Button
+                android:id="@+id/button15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#4CAF50"
+                android:text="Yağ yakacağı düşüncesiyle limon tüketiminde aşırıya kaçmak" />
+
+            <TextView
+                android:id="@+id/textView125"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="15dp"
+                android:text="Hiçbir besinin tek başına yağ yakımı sağlamadığı bilinmelidir. Sirkeli ya da limonlu su tüketimi de tek başına yağ yakımı sağlamamaktadır. Limonlu ya da sirkeli suların alkali değeri yüksektir ve metabolizmayı az da olsa hızlandırabilmektedir. Aromatik olarak içimi daha kolay olan limonlu ya da sirkeli suyun, uzun süre tüketilmesi mide sorunlarına yol açabilmektedir. Limon ve sirkeyi su ile tüketmektense salataya ekleyerek tüketmek daha doğru bir tercihtir." />
+
+            <Button
+                android:id="@+id/button16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#CDDC39"
+                android:text="Yemeklerde hiç yağ kullanmamak" />
+
+            <TextView
+                android:id="@+id/textView126"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hücre zarının ve hormonların büyük bir kısmı yağdan oluşmaktadır. Hücrelerin ve dolayısıyla vücut fonksiyonlarının düzgün çalışması için beslenmede kaliteli yağlar mutlaka bulunmalıdır. Yağsız beslenmek, yeteri kadar yağ tüketmemek metabolizmayı yavaşlatan ve kilo vermeyi zorlaştıran nedenlerden biridir. Salataları yağsız tüketmek, yağda eriyen (A,D,E,K) vitaminlerin emilimini engelleyeceği için diyet yaparken vitamin mineral alımını azaltır. Vücut için gerekli olan yağları elde etmek için ceviz, fındık, badem gibi yağlı tohumlar tüketilmelidir. Bununla birlikte yağların ihtiyaç kadar tüketilmesi tokluk süresini de uzatmaktadır." />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
